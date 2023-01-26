@@ -91,8 +91,10 @@ function isFullNew(array){
     }
 }
 //needs work 
-function removeItem(string){
-    return basket.indexOf(string)
+function removeItem(string,array){
+    return console.log(array.indexOf(string))
 }
 
-removeItem('test',basket)
+let test = ['a','b','c','d']
+
+removeItem('b',test)
