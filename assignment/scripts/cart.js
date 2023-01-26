@@ -90,4 +90,9 @@ function isFullNew(array){
         return console.log(true)
     }
 }
+//needs work 
+function removeItem(string){
+    return basket.indexOf(string)
+}
 
+removeItem('test',basket)
